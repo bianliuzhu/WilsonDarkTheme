@@ -1,0 +1,22 @@
+{
+    "name": "my-theme",
+    "displayName": "my-theme",
+    "description": "用心做主题 代码高亮",
+    "version": "0.0.1",
+    "publisher": "Wilson",
+    "engines": {
+        "vscode": "^1.23.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Wilson",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Wilson-color-theme.json"
+            }
+        ]
+    }
+}

@@ -1,0 +1,801 @@
+{
+	"name": "Wilson",
+	"type": "dark",
+	"colors": {
+		"focusBorder": "#00e8c5b9",
+		"foreground": "#d5ced9",
+		"widget.shadow": "#2e333f",
+		"selection.background": "#000000d8",
+		"errorForeground": "#FC644D",
+		"button.background": "#00e8c5cc",
+		"button.hoverBackground": "#07d4b6cc",
+		"dropdown.background": "#2b303b",
+		"dropdown.border": "#363c49",
+		"input.background": "#2b303b",
+		"input.placeholderForeground": "#746f77",
+		"inputOption.activeBorder": "#C668BA",
+		"inputValidation.errorBackground": "#D65343",
+		"inputValidation.errorBorder": "#D65343",
+		"inputValidation.infoBackground": "#3A6395",
+		"inputValidation.infoBorder": "#3A6395",
+		"inputValidation.warningBackground": "#DE9237",
+		"inputValidation.warningBorder": "#DE9237",
+		"scrollbar.shadow": "#23262E",
+		"scrollbarSlider.activeBackground": "#746f77CC",
+		"scrollbarSlider.background": "#746f7777",
+		"scrollbarSlider.hoverBackground": "#746f77AA",
+		"badge.background": "#00b0ff",
+		"progressBar.background": "#C668BA",
+		"list.activeSelectionBackground": "#23262E",
+		"list.activeSelectionForeground": "#00e8c6",
+		"list.dropBackground": "#3a404e",
+		"list.focusBackground": "#282b35",
+		"list.focusForeground": "#00e8c5b9",
+		"list.hoverBackground": "#3a404e",
+		"list.hoverForeground": "#eee",
+		"list.inactiveSelectionBackground": "#23262E",
+		"list.inactiveSelectionForeground": "#00e8c6",
+		"activityBar.background": "#23262E",
+		"activityBar.dropBackground": "#3a404e",
+		"activityBar.foreground": "#BAAFC0",
+		"activityBarBadge.background": "#00b0ff",
+		"sideBar.background": "#000000c7",
+		"sideBarSectionHeader.background": "#000000",
+		"sideBarSectionHeader.foreground": "#00c3ff",
+		"sideBarTitle.foreground": "#00e8c6",
+		"sideBar.foreground": "#e3dbe7",
+		"editorGroup.background": "#00000000", //
+		"editorGroup.dropBackground": "#495061d7",
+		"editorGroupHeader.tabsBackground": "#23262E",
+		"tab.activeBackground": "#23262e",
+		"tab.activeBorder": "#ffffff",
+		"tab.inactiveBackground": "#23262E",
+		"tab.activeForeground": "#00e8c6",
+		"tab.inactiveForeground": "#746f77",
+		"editorGroup.border": "#ffffff",
+		"editorGutter.background": "#000000af",
+		"editor.background": "#000000", //
+		"editor.foreground": "#D5CED9",
+		"editorLineNumber.foreground": "#746f77",
+		"editorLineNumber.activeForeground": "#09ff00",
+		"editorCursor.foreground": "#ff0000",
+		"editor.selectionBackground": "#303541",
+		"editor.selectionHighlightBackground": "#4F435580",
+		"editor.wordHighlightBackground": "#4F4355",
+		"editor.wordHighlightStrongBackground": "#db45a280",
+		"editor.findMatchBackground": "#f39d12d7",
+		"editor.findMatchHighlightBackground": "#59b8b377",
+		"editor.hoverHighlightBackground": "#373941",
+		"editor.lineHighlightBackground": "#45558111",
+		"editor.lineHighlightBorder": "#5381ffaf",
+		"editorLink.activeForeground": "#3B79C7",
+		"editor.rangeHighlightBackground": "#372F3C",
+		"editorWhitespace.foreground": "#3F3544",
+		"editorIndentGuide.background": "#3F3544",
+		"editorRuler.foreground": "#4F4355",
+		"editorCodeLens.foreground": "#746f77",
+		"editorBracketMatch.background": "#746f77",
+		"editorBracketMatch.border": "#746f77",
+		"editorOverviewRuler.border": "#4F4355",
+		"editorError.foreground": "#FC644D",
+		"editorWarning.foreground": "#FF9F2E",
+		"editorGutter.modifiedBackground": "#3B79C7BB",
+		"editorGutter.addedBackground": "#45C758BB",
+		"editorGutter.deletedBackground": "#FC644DBB",
+		"diffEditor.insertedTextBackground": "#A5F69C20",
+		"diffEditor.removedTextBackground": "#FC644D20",
+		"editorWidget.background": "#20232A",
+		"editorSuggestWidget.background": "#20232A",
+		"editorSuggestWidget.border": "#372F3C",
+		"editorSuggestWidget.selectedBackground": "#373941",
+		"editorHoverWidget.background": "#373941",
+		"editorHoverWidget.border": "#00e8c5cc",
+		"debugExceptionWidget.background": "#FF9F2E60",
+		"debugExceptionWidget.border": "#FF9F2E60",
+		"peekView.border": "#23262E",
+		"peekViewEditor.background": "#1A1C22",
+		"peekViewEditor.matchHighlightBackground": "#FF9F2E60",
+		"peekViewResult.background": "#1A1C22",
+		"peekViewResult.matchHighlightBackground": "#FF9F2E60",
+		"peekViewResult.selectionBackground": "#23262E",
+		"peekViewTitle.background": "#1A1C22",
+		"peekViewTitleDescription.foreground": "#746f77",
+		"merge.currentHeaderBackground": "#F92672",
+		"merge.currentContentBackground": "#F9267240",
+		"merge.incomingHeaderBackground": "#3B79C7BB",
+		"merge.incomingContentBackground": "#3B79C740",
+		"panel.background": "#23262E",
+		"panelTitle.activeBorder": "#23262E",
+		"panelTitle.inactiveForeground": "#746f77",
+		"statusBar.background": "#23262E",
+		"statusBar.debuggingBackground": "#FC644D",
+		"statusBar.noFolderBackground": "#23262E",
+		"statusBarItem.activeBackground": "#00e8c5cc",
+		"statusBarItem.hoverBackground": "#07d4b5b0",
+		"statusBarItem.prominentBackground": "#07d4b5b0",
+		"statusBarItem.prominentHoverBackground": "#00e8c5cc",
+		"titleBar.activeBackground": "#23262E",
+		"extensionButton.prominentBackground": "#07d4b6cc",
+		"extensionButton.prominentHoverBackground": "#07d4b5b0",
+		"pickerGroup.border": "#4F4355",
+		"pickerGroup.foreground": "#746f77",
+		"debugToolBar.background": "#372F3C",
+		"walkThrough.embeddedEditorBackground": "#23262E"
+	},
+	"tokenColors": [
+		{
+			"scope": [
+				""
+			],
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"name": "注释符号",
+			"scope": [
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#ffd4d4"
+			}
+		},
+		{
+			"name": "注释 内容",
+			"scope": [
+				"comment"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#b8b3b3"
+			}
+		},
+		{
+			"name": "数字 : 整数 | 浮点数",
+			"scope": [
+				"constant.numeric"
+			],
+			"settings": {
+				"foreground": "#07ccfd"
+			}
+		},
+		{
+			"name": "普通常量",
+			"scope": [
+				"variable.other.constant",
+				"entity.name.constant"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#a84bff"
+			}
+		},
+		{
+			"name": "内置常量(布尔值 boolean | 空值 null true false undefined)",
+			"scope": [
+				"constant.language"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#ff9a02" //#
+			}
+		},
+		// Enitiy 实体范围 标记 和 数据结构
+		{
+			"name": "非法元素 和 已弃用元素********",
+			"scope": [
+				"invalid.illegal",
+				"invalid.deprecated"
+			],
+			"settings": {
+				"foreground": "#752121f5",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "HTML和XML标签: html标点符号 | 名称和属性 (paragraph 段落使用)",
+			"scope": [
+				"meta.tag",
+				"meta.paragraph"
+			],
+			"settings": {
+				"foreground": "#39c40f",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "HTML: Tag 尖括号*********",
+			"scope": [
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html"
+			],
+			"settings": {
+				"foreground": "#fa44faf8",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "HTML 和 XML 标签名 **************",
+			"scope": [
+				"entity.name.tag"
+			],
+			"settings": {
+				"foreground": "#00ffead5"
+			}
+		},
+		{
+			"name": "标签 属性名***************",
+			"scope": [
+				"entity.other.attribute-name",
+				"entity.other.attribute-name.html"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#ffb42a"
+			}
+		},
+		{
+			"name": "html 文本",
+			"scope": [
+				//"text.html",
+				"text.html.basic",
+				"text.html.markdown"
+			],
+			"settings": {
+				"foreground": "#ffffff",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "标记语言中的标题名称（如Markdown和Textile）",
+			"scope": [
+				"entity.name.label"
+			],
+			"settings": {
+				"foreground": "#fbff00",
+				"fontStyle": "bold"
+			}
+		},
+		//数据结构
+		{
+			"name": "数据结构的名称",
+			"scope": [
+				"entity.name.class"
+			],
+			"settings": {
+				"foreground": "#ff0040",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "数据结构的名称",
+			"scope": [
+				"entity.name.struct"
+			],
+			"settings": {
+				"foreground": "#805761",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "数据结构的名称",
+			"scope": [
+				"entity.name.enum"
+			],
+			"settings": {
+				"foreground": "#db2955",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "数据结构的名称",
+			"scope": [
+				"entity.name.union"
+			],
+			"settings": {
+				"foreground": "#c48393",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "数据结构的名称",
+			"scope": [
+				"entity.name.trait"
+			],
+			"settings": {
+				"foreground": "#9c2140",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "数据结构的名称",
+			"scope": [
+				"entity.name.interface"
+			],
+			"settings": {
+				"foreground": "#c2516d",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "数据结构的名称 ",
+			"scope": [
+				"entity.name.type"
+			],
+			"settings": {
+				"foreground": "#ff7e9e",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "接口和特征名 ",
+			"scope": [
+				"entity.other.inherited-class"
+			],
+			"settings": {
+				"foreground": "#ff7171",
+				"fontStyle": "bold"
+			}
+		},
+		//'函数名'称
+		{
+			"name": "函数名称 ************",
+			"scope": [
+				"entity.name.function",
+				"variable.function",
+				"meta.function-call"
+			],
+			"settings": {
+				"foreground": "#e3ff68",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Parameter 函数参数",
+			"scope": [
+				"variable.parameter"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#94B2BD"
+			}
+		},
+		{
+			"name": "类或其他数据结构的字段，属性，成员和属性",
+			"scope": [
+				"variable.other.member"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#4D7574"
+			}
+		},
+		{
+			"name": "析构函数名称",
+			"scope": [
+				"entity.name.function.destructor"
+			],
+			"settings": {
+				"foreground": "#31837C",
+				"fontStyle": "bold"
+			}
+		},
+		//变量 相关 高亮
+		{
+			"name": "变量读写 变量名",
+			"scope": [
+				"variable.other.readwrite"
+			],
+			"settings": {
+				"foreground": "#68edff"
+			}
+		},
+		{
+			"name": "通用 (普通) 变量",
+			"scope": [
+				"variable.other",
+				"support.variable",
+				"variable"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#9DB26F"
+			}
+		},
+		{
+			"name": "变量名称的一部分的符号",
+			"scope": [
+				"punctuation.definition.variable"
+			],
+			"settings": {
+				"foreground": "#546A3B"
+			}
+		},
+		{
+			"name": "影响变量，函数或数据结构存储的关键字 static，inline，const，public和private",
+			"scope": [
+				"storage.modifier"
+			],
+			"settings": {
+				"foreground": "#ff3568",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "保留的变量名 : this，self，super",
+			"scope": [
+				"support.constant",
+				"variable.language"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#ff4ad2"
+			}
+		},
+		{
+			"name": "let, var, function, int，bool，char，func，function，class",
+			"scope": [
+				"storage.type"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#51abff"
+			}
+		},
+		//关键字
+		{
+			"name": "关键字 return| export default| for | switch case| break | ^ | $",
+			"scope": [
+				"keyword.control"
+			],
+			"settings": {
+				"foreground": "#60ff39",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "条件 关键字  : if - else |",
+			"scope": [
+				"keyword.control.conditional"
+			],
+			"settings": {
+				"foreground": "#ff00d4",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "入口 关键字",
+			"scope": [
+				"keyword.control.import"
+			],
+			"settings": {
+				"foreground": "#8e0cf8",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "标点符号的关键字（如@CSS中的符号）",
+			"scope": [
+				"punctuation.definition.keyword"
+			],
+			"settings": {
+				"foreground": "#b620b6d2",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "单词运算符 and，or或者not",
+			"scope": [
+				"keyword.other"
+			],
+			"settings": {
+				"foreground": "#7700ffa9",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "运算符关键字",
+			"scope": [
+				"keyword.operator"
+			],
+			"settings": {
+				"foreground": "#ff834a",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "分配运算符 | 按位运算符 | 算数运算符 | 逻辑运算符 ( + | - | * | / | %)",
+			"scope": [
+				"keyword.operator.assignment",
+				"keyword.operator.bitwise",
+				"keyword.operator.arithmetic",
+				"keyword.operator.logical"
+			],
+			"settings": {
+				"foreground": "#F5D1C3",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "非运算符 关键字",
+			"scope": [
+				"keyword.other"
+			],
+			"settings": {
+				"foreground": "#4632b6",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "章节标题",
+			"scope": [
+				"markup.heading"
+			],
+			"settings": {
+				"foreground": "#fd0202",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "链接",
+			"scope": [
+				"markup.underline.link"
+			],
+			"settings": {
+				"foreground": "#a6ff00",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "列表",
+			"scope": [
+				"markup.list.unnumbered",
+				"markup.list.numbered"
+			],
+			"settings": {
+				"foreground": "#ff0000",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "基本的文本样式",
+			"scope": [
+				"markup.bold",
+				"markup.italic",
+				"markup.underline"
+			],
+			"settings": {
+				"foreground": "#ff0000",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "插入和删除内容（如diff输出）",
+			"scope": [
+				"markup.inserted",
+				"markup.deleted"
+			],
+			"settings": {
+				"foreground": "#ff0000",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "块引用和其他引用样式",
+			"scope": [
+				"mmarkup.quote"
+			],
+			"settings": {
+				"foreground": "#ff0000",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "内联和块直接引用",
+			"scope": [
+				"markup.raw.inline",
+				"markup.raw.block"
+			],
+			"settings": {
+				"foreground": "#ff0000",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "其他标记",
+			"scope": [
+				"markup.other"
+			],
+			"settings": {
+				"foreground": "#ff0000",
+				"fontStyle": ""
+			}
+		},
+		//meta
+		{
+			"name": "完整的标识符（包括名称空间名称）",
+			"scope": [
+				"meta.path"
+			],
+			"settings": {
+				"foreground": "#ff0000",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "命名空间，模块或包的整体",
+			"scope": [
+				"meta.namespace"
+			],
+			"settings": {
+				"foreground": "#ff0000",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "对象 中 元素名",
+			"scope": [
+				"support.type"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#96f0fc"
+			}
+		},
+		//标点符号  未嵌入其他范围内的标点 符号
+		{
+			"name": "分隔符如 逗号 和 冒号 | 连续字符:continuation（如Python和R）",
+			"scope": [
+				"punctuation.separator",
+				"punctuation.separator.continuation"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#a04dff"
+			}
+		},
+		{
+			"name": "分号或其他语句终止符 | 成员访问权限 标点符号 '.'",
+			"scope": [
+				"punctuation.terminator",
+				"punctuation.accessor"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#ff0000"
+			}
+		},
+		// 基本字符串 根据引号类型 定义 单个引号 和   和 三倍引号
+		{
+			"name": "字符串开头和结尾的 引号 应该使用",
+			"scope": [
+				"punctuation.definition.string.begin",
+				"punctuation.definition.string.end"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#2bff00"
+			}
+		},
+		{
+			"name": "未加引号字符串",
+			"scope": [
+				"string.unquoted"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#fcd057"
+			}
+		},
+		{
+			"name": "单引号 字符串",
+			"scope": [
+				"string.quoted.single"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#C1D695"
+			}
+		},
+		{
+			"name": "双引号 字符串 | 三引号 字符串",
+			"scope": [
+				"string.quoted.double",
+				"string.quoted.triple"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#f8dc90"
+			}
+		},
+		{
+			"name": "非常规报价的字符串（例如C <和>C）",
+			"scope": [
+				"string.quoted.other"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#0a58e9"
+			}
+		},
+		{
+			"name": "正则表达式文字",
+			"scope": [
+				"string.regexp"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#fd37e3"
+			}
+		},
+		{
+			"name": "转义字符反斜杠",
+			"scope": [
+				"constant.character.escape"
+			],
+			"settings": {
+				"foreground": "#ff0202"
+			}
+		},
+		{
+			"name": "转义字符 和 格式化占位符",
+			"scope": [
+				"constant.character.escape",
+				"constant.other.placeholder"
+			],
+			"settings": {
+				"foreground": "#ff0202"
+			}
+		},
+		{
+			"name": "转义字符 和 格式化占位符",
+			"scope": [
+				"constant.character.escape",
+				"constant.other.placeholder"
+			],
+			"settings": {
+				"foreground": "#db5e5e"
+			}
+		},
+		{
+			"name": " 在 '{' 和 '}' 字符之间 用花括号表示的代码段",
+			"scope": [
+				"punctuation.section.block.begin",
+				"punctuation.section.block.end",
+				"punctuation.section.braces.begin",
+				"punctuation.section.braces.end"
+			],
+			"settings": {
+				"foreground": "#ff0000",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": " 在 '(' 和 ')' 字符之间 用小括号表示的代码段",
+			"scope": [
+				"meta.group",
+				"punctuation.section.group.begin",
+				"punctuation.section.group.end",
+				"meta.parens",
+				"punctuation.section.parens.begin",
+				"punctuation.section.parens.end"
+			],
+			"settings": {
+				"foreground": "#ff0000",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": " 在 '[' 和 ']' 字符之间 用中括号表示的代码段",
+			"scope": [
+				"meta.brackets",
+				"punctuation.section.brackets.begin",
+				"punctuation.section.brackets.end"
+			],
+			"settings": {
+				"foreground": "#ff0000",
+				"fontStyle": ""
+			}
+		}
+	]
+}
