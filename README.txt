@@ -1,4 +1,7 @@
 # README
+
+## This is the README for your extension "WilsonDarkTheme"
+
 # Hello 小伙伴 欢迎使用 Wilson Dark Theme(Wilson 暗黑主题)
 
 # 希望在使用过程中 提出建设性意见 帮助改进主题 
@@ -23,9 +26,6 @@
 4. 代码变样了   哈哈 ^_^
 5. 祝您使用愉快 !
 
-
-## This is the README for your extension "WilsonDarkTheme"
-您可以使用VisualStudio代码编写您的自述文件。这里有一些有用的编辑器键盘快捷键：
 
 * 分割编辑器r (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
 * Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
